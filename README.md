@@ -28,14 +28,24 @@ Most of what I build lives in private repositories, so this page is the map.
 
 **Infra** &nbsp;·&nbsp; Vercel &nbsp;·&nbsp; GitHub Actions
 
-A large share of my recent work is migration: Next.js 13 → 16, React 18 → 19, Tailwind 3 → 4, Prisma 7. Keeping a shipping product on a moving framework is its own skill, and I've done it on four codebases at once.
+A large share of my recent work is migration — Next.js 13 → 16, React 18 → 19, Tailwind 3 → 4, Prisma 7 — across four codebases at once. Keeping a shipping product on a moving framework is its own skill.
 
 ---
 
 ## Selected work
 
-### 우리동네사장님 — community platform for local business owners
-Next.js web app and marketing site on Prisma + PostgreSQL, an Android WebView client with FCM push and deep links, and an internal console for managing ad campaigns, points, and settlements.
+Products I own end to end and still maintain in production. The code is private, so I describe scope rather than link repositories.
+
+### 기준 (GI-JUN) — all-in-one HR SaaS for small teams
+**[gijun.co.kr](https://www.gijun.co.kr)** · ~96,000 lines of TypeScript across 900+ files
+
+A multi-tenant SaaS covering attendance, leave, expense approval, e-contracts, and onboarding — the HR work a small company has no dedicated team for.
+
+- **Korean labor law encoded as product.** Statutory leave accrual, 12 legally mandated leave types with annual caps, and a daily cron that warns admins before compliance deadlines pass. Getting this wrong costs a customer real money, so the rules live in tested code rather than in a spreadsheet.
+- **Multi-tenant security.** Row-level isolation in Postgres, encrypted PII, TOTP two-factor enforced at the database layer, and writes restricted to server-side APIs.
+- **Four platforms, one codebase.** Next.js 16 / React 19 web app, an Electron desktop client, and Android and iOS shells, each with its own CI pipeline.
+- **AI where it removes work, not where it demos well.** Payroll preparation that checks rules and diffs against last month before a human approves, first-line answers for support inquiries with escalation when unresolved, and weekly report drafts.
+- **Growth built in.** A content site with 35+ articles, 16 downloadable HR document templates, and 15 free calculators (severance, overtime, insurance) that bring in the small businesses the product is for.
 
 ### 리뷰노트 — review campaign platform
 Connects brands with reviewers. Next.js service with Prisma, a separate API layer on Supabase, an admin console for campaign review and settlement, and a native Android client. The codebase spans web, API, admin, and mobile as four coordinated repositories.
