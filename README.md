@@ -1,62 +1,56 @@
-<a href="https://hits.seeyoufarm.com">
- <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWOOSEONG-HAM&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
-</a> 
-<h1 align="center">Hey There!</h1>
- 
-<br/><br/>
+# Wooseong Ham
 
-<h3 align="center">These are technologies that I've used at least once so far.</h3>
-<br/>
+**Dev team lead & product builder** — I take products from an empty repository to something people pay for, and then keep them running.
 
-<div align="center">
- <img src="https://img.shields.io/badge/-SVELTE-E34F26?logo=SVELTE&logoColor=white" />
- <img src="https://img.shields.io/badge/-HTML-E34F26?logo=HTML5&logoColor=white" />
- <img src="https://img.shields.io/badge/-CSS-1572B6?logo=CSS3&logoColor=white" />
- <img src="https://img.shields.io/badge/-SCSS-CC6699?logo=Sass&logoColor=white" />
- <img src="https://img.shields.io/badge/-styled--components-DB7093?logo=styled-components&logoColor=white" />
-</div>
-
-<div align="center">
- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=white"/></a>
- <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=TypeScript&logoColor=white"/>
- <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
- <img src="https://img.shields.io/badge/-Next.js-black?logo=Next.js&logoColor=white" />
- <img src="https://img.shields.io/badge/AngularJS-E23237?style=flat-square&logo=AngularJS&logoColor=white"/>
-</div>
-
-<div align="center">
- <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
- <img src="https://img.shields.io/badge/Express-ffffff?&logo=express&logoColor=black"/></a>
- <img src="https://img.shields.io/badge/Nest-E0234E?&logo=nestjs&logoColor=white"/></a>
-</div>
-
-<div align="center">
- <img src="https://img.shields.io/badge/AWS-232F3E?&logo=AmazonAWS&logoColor=white"/></a>
- <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white"/></a>
-</div>
-
-<div align="center">
- <img src="https://img.shields.io/badge/-Git-F05032?logo=Git&logoColor=white" />
- <img src="https://img.shields.io/badge/-GitHub-000000?logo=GitHub&logoColor=white" />
- <img src="https://img.shields.io/badge/-Slack-4A154B?logo=Slack&logoColor=white" />
-</div>
-
-<br/>
-
-<h3 align="center">If you find any problem with me, please send me a message anytime.</h3>
-
-<br/>
-
-<div align="center">
- <a href="https://instagram.com/tarzan-ws"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
- <a href="https://mail.google.com/"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
- <a href="https://velog.io/@wsham"><img src="https://img.shields.io/badge/Tech Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white"/></a>
-</div>
+Most of what I build lives in private repositories, so this page is the map.
 
 ---
 
-<div align="center">
- <img align="left" src="https://github-readme-stats.vercel.app/api?username=WOOSEONG-HAM&count_private=true&show_icons=false&theme=default" />
- <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WOOSEONG-HAM&theme=default&show_icons=true" />
-</div>
+## What I do
 
+**Own products end to end.** Product decisions, database schema, API, frontend, the native shell, deployment, and the on-call that follows. When something breaks at 11pm, I'm the one who fixes it.
+
+**Lead a small dev team.** Code review, release process, and keeping a codebase that more than one person can work in — which mostly means boring, readable code and migrations that actually finish.
+
+**Build for people who aren't developers.** Small business owners, gym members, brand marketers. The bar is "my mother can use this", not "the demo worked".
+
+---
+
+## Tech
+
+**Frontend** &nbsp;·&nbsp; Next.js (App Router) &nbsp;·&nbsp; React 19 &nbsp;·&nbsp; SvelteKit &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Tailwind CSS
+
+**Backend** &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Prisma &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Supabase &nbsp;·&nbsp; REST APIs
+
+**Mobile** &nbsp;·&nbsp; Android (Kotlin) &nbsp;·&nbsp; watchOS (Swift) &nbsp;·&nbsp; FCM push &nbsp;·&nbsp; deep linking
+
+**Testing** &nbsp;·&nbsp; Vitest &nbsp;·&nbsp; Playwright &nbsp;·&nbsp; Zod
+
+**Infra** &nbsp;·&nbsp; Vercel &nbsp;·&nbsp; GitHub Actions
+
+A large share of my recent work is migration: Next.js 13 → 16, React 18 → 19, Tailwind 3 → 4, Prisma 7. Keeping a shipping product on a moving framework is its own skill, and I've done it on four codebases at once.
+
+---
+
+## Selected work
+
+### 우리동네사장님 — community platform for local business owners
+Next.js web app and marketing site on Prisma + PostgreSQL, an Android WebView client with FCM push and deep links, and an internal console for managing ad campaigns, points, and settlements.
+
+### 리뷰노트 — review campaign platform
+Connects brands with reviewers. Next.js service with Prisma, a separate API layer on Supabase, an admin console for campaign review and settlement, and a native Android client. The codebase spans web, API, admin, and mobile as four coordinated repositories.
+
+### 라곰트레이닝 — training log and community app
+Built and maintained solo across roughly 2,000 commits. SvelteKit + Supabase, with an Android shell and a watchOS companion that tracks workouts on the wrist. Used daily by a real gym — which is the fastest feedback loop I've worked in.
+
+---
+
+## Writing
+
+I write about what I run into while building, at [velog.io/@wsham](https://velog.io/@wsham).
+
+---
+
+## Contact
+
+**Email** &nbsp;[wooseongham@gmail.com](mailto:wooseongham@gmail.com) &nbsp;&nbsp;·&nbsp;&nbsp; **Location** &nbsp;Seoul, South Korea
